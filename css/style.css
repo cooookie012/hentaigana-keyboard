@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+    font-family: 'IPAmj明朝', serif;
+}
+
+main {
+    margin: 30px;
+    position: a;
+}
+h1 {
+    font-size: 3rem;
+}
+.keyboard {
+    writing-mode: vertical-rl;
+    overflow: auto;
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px;
+}
+table td,
+table th {
+    writing-mode: horizontal-tb;
+    text-align: center;
+    border: 1px #000 solid;
+    padding: 10px;
+    vertical-align: middle;
+}
+table thead,
+table th {
+    font-weight: 600;
+    text-align: center;
+}
+td span {
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 100%;
+    resize: none;
+}
